@@ -114,7 +114,7 @@ revm = { git = "https://github.com/bluealloy/revm", rev = "df44297bc3949dc9e0cec
 revm-primitives = { git = "https://github.com/bluealloy/revm", rev = "df44297bc3949dc9e0cec06594c62dd946708b2a" }
 
 ## eth
-alloy-dyn-abi = { git = "https://github.com/SorellaLabs/alloy-cores" }
+alloy-dyn-abi = { git = "https://github.com/SorellaLabs/alloy-core" }
 alloy-sol-macro = { git = "https://github.com/SorellaLabs/alloy-core", features = [
   "json",
 ] }
