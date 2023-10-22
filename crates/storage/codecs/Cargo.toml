@@ -17,6 +17,7 @@ arbitrary = ["revm-primitives/arbitrary", "dep:arbitrary", "dep:proptest", "dep:
 value-256 = ["codecs-derive/value-256"]
 
 [dependencies]
+alloy-primitives.workspace = true
 bytes.workspace = true
 codecs-derive = { path = "./derive", default-features = false }
 revm-primitives = { workspace = true, features = ["serde"] }

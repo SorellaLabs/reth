@@ -115,15 +115,9 @@ revm-primitives = { git = "https://github.com/bluealloy/revm", rev = "df44297bc3
 
 ## eth
 alloy-dyn-abi = { git = "https://github.com/SorellaLabs/alloy-core" }
-alloy-sol-macro = { git = "https://github.com/SorellaLabs/alloy-core", features = [
-  "json",
-] }
-alloy-sol-types = { git = "https://github.com/SorellaLabs/alloy-core", features = [
-  "json",
-] }
-alloy-primitives = { git = "https://github.com/SorellaLabs/alloy-core", features = [
-  "rlp",
-] }
+alloy-sol-macro = { git = "https://github.com/SorellaLabs/alloy-core" }
+alloy-sol-types = { git = "https://github.com/SorellaLabs/alloy-core" }
+alloy-primitives = { git = "https://github.com/SorellaLabs/alloy-core" }
 
 alloy-rlp = { git = "https://github.com/SorellaLabs/alloy-rlp" }
 alloy-rlp-derive = { git = "https://github.com/SorellaLabs/alloy-rlp" }
